@@ -7,20 +7,11 @@ min_sid = float('inf')
 sid_set = set()
 
 for line in inp.split('\n'):
-    # line = 'FBFBBFFRLR'
-    r = line[:7]
-    c = line[7:]
-    row = r.replace('F', '0').replace('B', '1')
-    col = c.replace('L', '0').replace('R', '1')
-    row_idx = int(row, 2)
-    col_idx = int(col, 2)
-    # print(line)
-    # print(row, col)
-    # print(row_idx, col_idx)
-    seat_id = row_idx * 8 + col_idx
-    min_sid = min(seat_id, min_sid)
-    max_sid = max(seat_id, max_sid)
-    sid_set.add(seat_id)
+    ssid = line.replace('F', '0').replace('B', '1').replace('L', '0').replace('R', '1')
+    sid = int(ssid, 2)
+    min_sid = min(sid, min_sid)
+    max_sid = max(sid, max_sid)
+    sid_set.add(sid)
 
 print('Part 1.', max_sid)
 
