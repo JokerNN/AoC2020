@@ -41,9 +41,6 @@ while s != invalid_number:
         s -= nums[ps]
         ps += 1
 
-    # if s == invalid_number:
-    #     break
-
 sumset = nums[ps:pe + 1]
 
 print('Part 2.', min(sumset) + max(sumset))
