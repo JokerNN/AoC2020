@@ -1,4 +1,4 @@
-# from rosett code
+# from rosetta code https://rosettacode.org/wiki/Chinese_remainder_theorem
 
 from functools import reduce
 
