@@ -25,10 +25,7 @@ typedef unordered_map<unsigned int, unsigned int> intmap;
 
 int simulate(unsigned int *nums, unsigned int nums_size, unsigned int end_turn) {
     intmap recent_moves;
-    // int recent_moves[recent_moves_size];
-    // for (int i = 0; i < recent_moves_size; ++i) {
-    //     recent_moves[i] = -1;
-    // }
+    recent_moves.reserve(10000000);
     int last_spoken = 0;
     unsigned int turn_number = nums_size;
     for (unsigned int i = 0; i < nums_size; ++i) {
