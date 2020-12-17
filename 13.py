@@ -1,6 +1,6 @@
 from chinese_remainder_theorem import chinese_remainder
 
-with open('inp13.txt') as f:
+with open('inputs/inp13.txt') as f:
     inp = f.read()
 
 # inp = '''

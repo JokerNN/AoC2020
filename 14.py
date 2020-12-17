@@ -1,7 +1,7 @@
 from collections import defaultdict
 import re
 
-with open('inp14.txt') as f:
+with open('inputs/inp14.txt') as f:
     inp = f.read()
 
 # inp = '''mask = 000000000000000000000000000000X1001X

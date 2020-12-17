@@ -1,4 +1,4 @@
-f = open('./inp5.txt')
+f = open('inputs/inp5.txt')
 
 inp = f.read()
 

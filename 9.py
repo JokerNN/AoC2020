@@ -2,7 +2,7 @@ from collections import Counter
 
 inp = ''
 
-with open('./inp9.txt') as f:
+with open('inputs/inp9.txt') as f:
     inp = f.read()
 
 nums = [int(n) for n in inp.split('\n')]

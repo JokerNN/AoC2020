@@ -1,6 +1,6 @@
 from functools import lru_cache
 
-with open('./inp10.txt') as f:
+with open('inputs/inp10.txt') as f:
     inp = f.read()
 
 # inp = '''16

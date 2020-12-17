@@ -1,8 +1,7 @@
 import os, sys
 from functools import partial
 
-f = open(os.path.dirname(os.path.realpath(sys.argv[0]))
- + '/inp3.txt')
+f = open('inputs/inp3.txt')
 
 inp = f.read()
 

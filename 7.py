@@ -2,7 +2,7 @@ import re
 from collections import defaultdict
 
 inp = ''
-with open('./inp7.txt') as f:
+with open('inputs/inp7.txt') as f:
     inp = f.read()
 
 

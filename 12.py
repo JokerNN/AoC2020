@@ -1,6 +1,6 @@
 from collections import namedtuple
 
-with open('./inp12.txt') as f:
+with open('inputs/inp12.txt') as f:
     inp = f.read()
 
 # inp = '''F10

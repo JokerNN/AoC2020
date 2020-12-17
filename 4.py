@@ -1,4 +1,4 @@
-f = open('./inp4.txt', 'r')
+f = open('inputs/inp4.txt', 'r')
 import re
 
 inp = f.read()

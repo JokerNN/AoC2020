@@ -1,6 +1,6 @@
 from copy import deepcopy
 
-with open('./inp11.txt') as f:
+with open('inputs/inp11.txt') as f:
     inp = f.read()
 
 

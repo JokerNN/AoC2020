@@ -1,7 +1,7 @@
 from console import ConsoleExecutor, ProgramStatus
 
 inp = ''
-with open('./inp8.txt') as f:
+with open('inputs/inp8.txt') as f:
     inp = f.read()
 
 # inp = '''nop +0

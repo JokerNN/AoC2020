@@ -2,7 +2,7 @@ from functools import reduce
 
 inp = ''
 
-with open('./inp6.txt') as f:
+with open('inputs/inp6.txt') as f:
     inp = f.read()
 
 res = 0

@@ -2,7 +2,7 @@ import re
 from collections import namedtuple
 from itertools import permutations
 
-with open('inp16.txt') as f:
+with open('inputs/inp16.txt') as f:
     inp = f.read()
 
 # inp = '''
