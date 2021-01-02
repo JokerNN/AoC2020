@@ -1,5 +1,6 @@
 *
+
+!.gitignore
 !*.*
-!inputs/*
-*.out
-*.dSYM
+!inputs
+
