@@ -1,15 +1,21 @@
+from typing import Optional, NewType
+
 inp = '327465189'
 # inp = '389125467'
 
 inp = [int(c) for c in inp]
 
+
 class SListNode:
-    def __init__(self, val):
+    def __init__(self, val: int):
         self.val = val
-        self.next = None
+        self.next: SListNodeT = None
 
     def __repr__(self):
         return str(self.val)
+
+
+SListNodeT = NewType('SListNodeT', Optional[SListNode])
 
 def slice_n(node: SListNode, n: int=10):
     res = []

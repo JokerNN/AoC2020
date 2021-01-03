@@ -54,7 +54,7 @@ def game_hash(deck1: list, deck2: list) -> str:
 
 
 
-def game2(deck1: list, deck2: list, game_id: int=0) -> list:
+def game2(deck1: list, deck2: list, game_id: int=0) -> tuple:
     # print('Starting', game_id)
     prev_rounds = set()
 
