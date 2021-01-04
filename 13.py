@@ -42,7 +42,7 @@ bus_ids = [int(b_id) for b_id in schedule.split(',') if b_id != 'x']
 # print(ts, bus_ids)
 
 min_wait = float('inf')
-min_bid = None
+min_bid = 0
 
 for bid in bus_ids:
     wait = bid - ts % bid

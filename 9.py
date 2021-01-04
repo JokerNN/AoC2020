@@ -9,7 +9,7 @@ nums = [int(n) for n in inp.split('\n')]
 
 counts = set(nums[:25])
 
-invalid_number = None
+invalid_number = -1
 
 for idx, n in enumerate(nums[25:], 25):
     found_pair = False

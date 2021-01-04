@@ -1003,7 +1003,7 @@ inp = """1-8 n: dpwpmhknmnlglhjtrbpx
 from collections import Counter
 import re
 
-match = re.compile('(?P<from>\d+)\-(?P<to>\d+) (?P<letter>.): (?P<pass>.+)')
+match = re.compile(r'(?P<from>\d+)\-(?P<to>\d+) (?P<letter>.): (?P<pass>.+)')
 
 valid_count_p1 = 0
 valid_count_p2 = 0

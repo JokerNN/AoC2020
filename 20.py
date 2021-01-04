@@ -117,7 +117,7 @@ with open('inputs/inp20.txt') as f:
 
 def rotate_pic_left(pic: List[str]) -> List[str]:
     new_pic = ['' for _ in range(len(pic))]
-    for r_idx, row in enumerate(pic):
+    for row in pic:
         for c_idx, char in enumerate(reversed(row)):
             new_pic[c_idx] += char
 

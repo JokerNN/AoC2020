@@ -15,6 +15,6 @@ for line in inp.split('\n'):
 
 print('Part 1.', max_sid)
 
-for sid in range(min_sid + 1, max_sid):
+for sid in range(int(min_sid + 1), int(max_sid)):
     if sid not in sid_set and sid - 1 in sid_set and sid + 1 in sid_set:
         print('Part 2.', sid)
