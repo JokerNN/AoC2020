@@ -98,7 +98,7 @@ cur_node = first
 
 
 for _ in range(10000000):
-    if _ % 100000 == 0:
+    if _ % 1000000 == 0:
         print(_)
 
     cur_val = cur_node.val
